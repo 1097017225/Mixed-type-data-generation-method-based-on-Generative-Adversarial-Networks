@@ -5,4 +5,4 @@
 
 ## 3. 在‘3.4’小节中，"This problem is denoted as mode collapse, which arises most likely due to the GAN’s optimization strategy often solving the max-min problem instead of the min-max problem",max-min和min-max有什么区别
 
-## 3. 在‘3.4’小节中， "This is especially likely when mode collapse occurs because the ˆ p k ’s for most dimensions of the fake samples become dichotomized (either 0 or 1),whereas the ˆ p k ’s of real samples generally take on a value between 0 and 1. Therefore, if G wants to fool D , it will have to generate more diverse examples within the minibatch Dec(G(z 1 ,z 2 ,...))",Binary variables变量不就是在0和1中取值吗，为什么是在0和1之间取值？
+## 4. 在‘3.4’小节中， "This is especially likely when mode collapse occurs because the ˆ p k ’s for most dimensions of the fake samples become dichotomized (either 0 or 1),whereas the ˆ p k ’s of real samples generally take on a value between 0 and 1. Therefore, if G wants to fool D , it will have to generate more diverse examples within the minibatch Dec(G(z 1 ,z 2 ,...))",Binary variables变量不就是在0和1中取值吗，为什么是在0和1之间取值？
